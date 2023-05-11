@@ -1,0 +1,28 @@
+{
+  "name": "personal-flashcards-server",
+  "version": "1.0.0",
+  "description": "REST API for image analysis",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "@google-cloud/translate": "^6.0.1",
+    "@google-cloud/vision": "^2.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "mysql2": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/mysql2": "github:types/mysql2",
+    "@types/node": "^14.0.14",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.6"
+  },
+  "author": "Anonymous",
+  "license": "MIT"
+}
